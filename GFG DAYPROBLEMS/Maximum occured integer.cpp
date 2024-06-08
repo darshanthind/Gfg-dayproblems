@@ -34,10 +34,10 @@ int main()
         mp[r[i] + 1]--;
     }
 
-    for (int i = 0; i < mp.size(); i++)
-    {
-        cout << mp[i] << " ";
-    }
+    // for (int i = 0; i < mp.size(); i++)
+    // {
+    //     cout << mp[i] << " ";
+    // }
     int curr = 0;
     int maxi = 0;
     int ans = 0;
